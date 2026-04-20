@@ -3,6 +3,7 @@
 try:
     # User input
     user_name = input("Enter your name: ").strip()
+    mobile_number = input("Enter your mobile number: ")
     ticket_type = input("Enter ticket type (Regular/VIP): ").strip().lower()
     number_of_tickets = int(input("Enter number of tickets: "))
 
